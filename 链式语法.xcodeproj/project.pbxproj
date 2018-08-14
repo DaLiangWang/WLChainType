@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1452A0212139C1002897B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF14529F212139C1002897B4 /* AppDelegate.m */; };
+		EF1452A3212139C1002897B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452A2212139C1002897B4 /* ViewController.m */; };
+		EF1452A6212139C1002897B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1452A4212139C1002897B4 /* Main.storyboard */; };
+		EF1452A8212139C3002897B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1452A7212139C3002897B4 /* Assets.xcassets */; };
+		EF1452AB212139C3002897B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1452A9212139C3002897B4 /* LaunchScreen.storyboard */; };
+		EF1452AE212139C3002897B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452AD212139C3002897B4 /* main.m */; };
+		EF1452D2212139E1002897B4 /* CalculatorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452D1212139E1002897B4 /* CalculatorTools.m */; };
+		EF1452D921214992002897B4 /* WLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452D821214992002897B4 /* WLButton.m */; };
+		EF1452DC21217013002897B4 /* UIView+WLChainViewType.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452DB21217013002897B4 /* UIView+WLChainViewType.m */; };
+		EF1452E021218104002897B4 /* UIView+WLChainLabelType.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452DF21218104002897B4 /* UIView+WLChainLabelType.m */; };
+		EF1452E6212181F1002897B4 /* UIView+WLChainButtonType.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452E5212181F1002897B4 /* UIView+WLChainButtonType.m */; };
+		EF1452F921228E59002897B4 /* UIView+WLChainImageViewType.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452F821228E59002897B4 /* UIView+WLChainImageViewType.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF1452B4212139C3002897B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF145293212139C1002897B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF14529A212139C1002897B4;
+			remoteInfo = "链式语法";
+		};
+		EF1452BF212139C3002897B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF145293212139C1002897B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF14529A212139C1002897B4;
+			remoteInfo = "链式语法";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF14529B212139C1002897B4 /* 链式语法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "链式语法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF14529E212139C1002897B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF14529F212139C1002897B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF1452A1212139C1002897B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF1452A2212139C1002897B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF1452A5212139C1002897B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF1452A7212139C3002897B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1452AA212139C3002897B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF1452AC212139C3002897B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1452AD212139C3002897B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF1452B3212139C3002897B4 /* 链式语法Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "链式语法Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1452BE212139C3002897B4 /* 链式语法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "链式语法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1452D0212139E1002897B4 /* CalculatorTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorTools.h; sourceTree = "<group>"; };
+		EF1452D1212139E1002897B4 /* CalculatorTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTools.m; sourceTree = "<group>"; };
+		EF1452D721214992002897B4 /* WLButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLButton.h; sourceTree = "<group>"; };
+		EF1452D821214992002897B4 /* WLButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLButton.m; sourceTree = "<group>"; };
+		EF1452DA21217013002897B4 /* UIView+WLChainViewType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WLChainViewType.h"; sourceTree = "<group>"; };
+		EF1452DB21217013002897B4 /* UIView+WLChainViewType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WLChainViewType.m"; sourceTree = "<group>"; };
+		EF1452DE21218104002897B4 /* UIView+WLChainLabelType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WLChainLabelType.h"; sourceTree = "<group>"; };
+		EF1452DF21218104002897B4 /* UIView+WLChainLabelType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WLChainLabelType.m"; sourceTree = "<group>"; };
+		EF1452E4212181F1002897B4 /* UIView+WLChainButtonType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WLChainButtonType.h"; sourceTree = "<group>"; };
+		EF1452E5212181F1002897B4 /* UIView+WLChainButtonType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WLChainButtonType.m"; sourceTree = "<group>"; };
+		EF1452E721218300002897B4 /* WLChainHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLChainHeader.h; sourceTree = "<group>"; };
+		EF1452F721228E59002897B4 /* UIView+WLChainImageViewType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WLChainImageViewType.h"; sourceTree = "<group>"; };
+		EF1452F821228E59002897B4 /* UIView+WLChainImageViewType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WLChainImageViewType.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF145298212139C1002897B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1452B0212139C3002897B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1452BB212139C3002897B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF145292212139C1002897B4 = {
+			isa = PBXGroup;
+			children = (
+				EF14529D212139C1002897B4 /* 链式语法 */,
+				EF14529C212139C1002897B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF14529C212139C1002897B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF14529B212139C1002897B4 /* 链式语法.app */,
+				EF1452B3212139C3002897B4 /* 链式语法Tests.xctest */,
+				EF1452BE212139C3002897B4 /* 链式语法UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF14529D212139C1002897B4 /* 链式语法 */ = {
+			isa = PBXGroup;
+			children = (
+				EF1452D62121497D002897B4 /* WLChainType */,
+				EF14529E212139C1002897B4 /* AppDelegate.h */,
+				EF14529F212139C1002897B4 /* AppDelegate.m */,
+				EF1452A1212139C1002897B4 /* ViewController.h */,
+				EF1452A2212139C1002897B4 /* ViewController.m */,
+				EF1452D0212139E1002897B4 /* CalculatorTools.h */,
+				EF1452D1212139E1002897B4 /* CalculatorTools.m */,
+				EF1452A4212139C1002897B4 /* Main.storyboard */,
+				EF1452A7212139C3002897B4 /* Assets.xcassets */,
+				EF1452A9212139C3002897B4 /* LaunchScreen.storyboard */,
+				EF1452AC212139C3002897B4 /* Info.plist */,
+				EF1452AD212139C3002897B4 /* main.m */,
+			);
+			path = "链式语法";
+			sourceTree = "<group>";
+		};
+		EF1452D62121497D002897B4 /* WLChainType */ = {
+			isa = PBXGroup;
+			children = (
+				EF1452E721218300002897B4 /* WLChainHeader.h */,
+				EF1452DD21217FCA002897B4 /* View */,
+				EF1452F0212285EA002897B4 /* Base */,
+				EF1452F1212285F2002897B4 /* Button */,
+				EF1452F2212285F9002897B4 /* Label */,
+				EF1452F621228E32002897B4 /* ImageView */,
+			);
+			path = WLChainType;
+			sourceTree = "<group>";
+		};
+		EF1452DD21217FCA002897B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF1452D721214992002897B4 /* WLButton.h */,
+				EF1452D821214992002897B4 /* WLButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF1452F0212285EA002897B4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EF1452DA21217013002897B4 /* UIView+WLChainViewType.h */,
+				EF1452DB21217013002897B4 /* UIView+WLChainViewType.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EF1452F1212285F2002897B4 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				EF1452E4212181F1002897B4 /* UIView+WLChainButtonType.h */,
+				EF1452E5212181F1002897B4 /* UIView+WLChainButtonType.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		EF1452F2212285F9002897B4 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				EF1452DE21218104002897B4 /* UIView+WLChainLabelType.h */,
+				EF1452DF21218104002897B4 /* UIView+WLChainLabelType.m */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		EF1452F621228E32002897B4 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				EF1452F721228E59002897B4 /* UIView+WLChainImageViewType.h */,
+				EF1452F821228E59002897B4 /* UIView+WLChainImageViewType.m */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF14529A212139C1002897B4 /* 链式语法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1452C7212139C3002897B4 /* Build configuration list for PBXNativeTarget "链式语法" */;
+			buildPhases = (
+				EF145297212139C1002897B4 /* Sources */,
+				EF145298212139C1002897B4 /* Frameworks */,
+				EF145299212139C1002897B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "链式语法";
+			productName = "链式语法";
+			productReference = EF14529B212139C1002897B4 /* 链式语法.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF1452B2212139C3002897B4 /* 链式语法Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1452CA212139C3002897B4 /* Build configuration list for PBXNativeTarget "链式语法Tests" */;
+			buildPhases = (
+				EF1452AF212139C3002897B4 /* Sources */,
+				EF1452B0212139C3002897B4 /* Frameworks */,
+				EF1452B1212139C3002897B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1452B5212139C3002897B4 /* PBXTargetDependency */,
+			);
+			name = "链式语法Tests";
+			productName = "链式语法Tests";
+			productReference = EF1452B3212139C3002897B4 /* 链式语法Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF1452BD212139C3002897B4 /* 链式语法UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1452CD212139C3002897B4 /* Build configuration list for PBXNativeTarget "链式语法UITests" */;
+			buildPhases = (
+				EF1452BA212139C3002897B4 /* Sources */,
+				EF1452BB212139C3002897B4 /* Frameworks */,
+				EF1452BC212139C3002897B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1452C0212139C3002897B4 /* PBXTargetDependency */,
+			);
+			name = "链式语法UITests";
+			productName = "链式语法UITests";
+			productReference = EF1452BE212139C3002897B4 /* 链式语法UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF145293212139C1002897B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "王亮";
+				TargetAttributes = {
+					EF14529A212139C1002897B4 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EF1452B2212139C3002897B4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EF14529A212139C1002897B4;
+					};
+					EF1452BD212139C3002897B4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EF14529A212139C1002897B4;
+					};
+				};
+			};
+			buildConfigurationList = EF145296212139C1002897B4 /* Build configuration list for PBXProject "链式语法" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF145292212139C1002897B4;
+			productRefGroup = EF14529C212139C1002897B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF14529A212139C1002897B4 /* 链式语法 */,
+				EF1452B2212139C3002897B4 /* 链式语法Tests */,
+				EF1452BD212139C3002897B4 /* 链式语法UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF145299212139C1002897B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1452AB212139C3002897B4 /* LaunchScreen.storyboard in Resources */,
+				EF1452A8212139C3002897B4 /* Assets.xcassets in Resources */,
+				EF1452A6212139C1002897B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1452B1212139C3002897B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1452BC212139C3002897B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF145297212139C1002897B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1452E6212181F1002897B4 /* UIView+WLChainButtonType.m in Sources */,
+				EF1452DC21217013002897B4 /* UIView+WLChainViewType.m in Sources */,
+				EF1452E021218104002897B4 /* UIView+WLChainLabelType.m in Sources */,
+				EF1452D921214992002897B4 /* WLButton.m in Sources */,
+				EF1452F921228E59002897B4 /* UIView+WLChainImageViewType.m in Sources */,
+				EF1452A3212139C1002897B4 /* ViewController.m in Sources */,
+				EF1452AE212139C3002897B4 /* main.m in Sources */,
+				EF1452A0212139C1002897B4 /* AppDelegate.m in Sources */,
+				EF1452D2212139E1002897B4 /* CalculatorTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1452AF212139C3002897B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1452BA212139C3002897B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF1452B5212139C3002897B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF14529A212139C1002897B4 /* 链式语法 */;
+			targetProxy = EF1452B4212139C3002897B4 /* PBXContainerItemProxy */;
+		};
+		EF1452C0212139C3002897B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF14529A212139C1002897B4 /* 链式语法 */;
+			targetProxy = EF1452BF212139C3002897B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF1452A4212139C1002897B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1452A5212139C1002897B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF1452A9212139C3002897B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1452AA212139C3002897B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1452C5212139C3002897B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF1452C6212139C3002897B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1452C8212139C3002897B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "链式语法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF1452C9212139C3002897B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "链式语法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF1452CB212139C3002897B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "链式语法Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/链式语法.app/链式语法";
+			};
+			name = Debug;
+		};
+		EF1452CC212139C3002897B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "链式语法Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/链式语法.app/链式语法";
+			};
+			name = Release;
+		};
+		EF1452CE212139C3002897B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "链式语法UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "链式语法";
+			};
+			name = Debug;
+		};
+		EF1452CF212139C3002897B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "链式语法UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "链式语法";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF145296212139C1002897B4 /* Build configuration list for PBXProject "链式语法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1452C5212139C3002897B4 /* Debug */,
+				EF1452C6212139C3002897B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1452C7212139C3002897B4 /* Build configuration list for PBXNativeTarget "链式语法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1452C8212139C3002897B4 /* Debug */,
+				EF1452C9212139C3002897B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1452CA212139C3002897B4 /* Build configuration list for PBXNativeTarget "链式语法Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1452CB212139C3002897B4 /* Debug */,
+				EF1452CC212139C3002897B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1452CD212139C3002897B4 /* Build configuration list for PBXNativeTarget "链式语法UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1452CE212139C3002897B4 /* Debug */,
+				EF1452CF212139C3002897B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF145293212139C1002897B4 /* Project object */;
+}

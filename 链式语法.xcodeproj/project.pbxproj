@@ -13,12 +13,12 @@
 		EF1452A8212139C3002897B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1452A7212139C3002897B4 /* Assets.xcassets */; };
 		EF1452AB212139C3002897B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1452A9212139C3002897B4 /* LaunchScreen.storyboard */; };
 		EF1452AE212139C3002897B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452AD212139C3002897B4 /* main.m */; };
-		EF1452D2212139E1002897B4 /* CalculatorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452D1212139E1002897B4 /* CalculatorTools.m */; };
 		EF1452D921214992002897B4 /* WLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452D821214992002897B4 /* WLButton.m */; };
 		EF1452DC21217013002897B4 /* UIView+WLChainViewType.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452DB21217013002897B4 /* UIView+WLChainViewType.m */; };
 		EF1452E021218104002897B4 /* UIView+WLChainLabelType.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452DF21218104002897B4 /* UIView+WLChainLabelType.m */; };
 		EF1452E6212181F1002897B4 /* UIView+WLChainButtonType.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452E5212181F1002897B4 /* UIView+WLChainButtonType.m */; };
 		EF1452F921228E59002897B4 /* UIView+WLChainImageViewType.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452F821228E59002897B4 /* UIView+WLChainImageViewType.m */; };
+		EF1452FC2122A9A2002897B4 /* NSObject+WLAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452FB2122A9A2002897B4 /* NSObject+WLAssociatedObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,6 @@
 		EF1452AD212139C3002897B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF1452B3212139C3002897B4 /* 链式语法Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "链式语法Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1452BE212139C3002897B4 /* 链式语法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "链式语法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF1452D0212139E1002897B4 /* CalculatorTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorTools.h; sourceTree = "<group>"; };
-		EF1452D1212139E1002897B4 /* CalculatorTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTools.m; sourceTree = "<group>"; };
 		EF1452D721214992002897B4 /* WLButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLButton.h; sourceTree = "<group>"; };
 		EF1452D821214992002897B4 /* WLButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLButton.m; sourceTree = "<group>"; };
 		EF1452DA21217013002897B4 /* UIView+WLChainViewType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WLChainViewType.h"; sourceTree = "<group>"; };
@@ -64,6 +62,8 @@
 		EF1452E721218300002897B4 /* WLChainHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLChainHeader.h; sourceTree = "<group>"; };
 		EF1452F721228E59002897B4 /* UIView+WLChainImageViewType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WLChainImageViewType.h"; sourceTree = "<group>"; };
 		EF1452F821228E59002897B4 /* UIView+WLChainImageViewType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WLChainImageViewType.m"; sourceTree = "<group>"; };
+		EF1452FA2122A9A2002897B4 /* NSObject+WLAssociatedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+WLAssociatedObject.h"; sourceTree = "<group>"; };
+		EF1452FB2122A9A2002897B4 /* NSObject+WLAssociatedObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WLAssociatedObject.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +117,6 @@
 				EF14529F212139C1002897B4 /* AppDelegate.m */,
 				EF1452A1212139C1002897B4 /* ViewController.h */,
 				EF1452A2212139C1002897B4 /* ViewController.m */,
-				EF1452D0212139E1002897B4 /* CalculatorTools.h */,
-				EF1452D1212139E1002897B4 /* CalculatorTools.m */,
 				EF1452A4212139C1002897B4 /* Main.storyboard */,
 				EF1452A7212139C3002897B4 /* Assets.xcassets */,
 				EF1452A9212139C3002897B4 /* LaunchScreen.storyboard */,
@@ -155,6 +153,8 @@
 			children = (
 				EF1452DA21217013002897B4 /* UIView+WLChainViewType.h */,
 				EF1452DB21217013002897B4 /* UIView+WLChainViewType.m */,
+				EF1452FA2122A9A2002897B4 /* NSObject+WLAssociatedObject.h */,
+				EF1452FB2122A9A2002897B4 /* NSObject+WLAssociatedObject.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -318,13 +318,13 @@
 			files = (
 				EF1452E6212181F1002897B4 /* UIView+WLChainButtonType.m in Sources */,
 				EF1452DC21217013002897B4 /* UIView+WLChainViewType.m in Sources */,
+				EF1452FC2122A9A2002897B4 /* NSObject+WLAssociatedObject.m in Sources */,
 				EF1452E021218104002897B4 /* UIView+WLChainLabelType.m in Sources */,
 				EF1452D921214992002897B4 /* WLButton.m in Sources */,
 				EF1452F921228E59002897B4 /* UIView+WLChainImageViewType.m in Sources */,
 				EF1452A3212139C1002897B4 /* ViewController.m in Sources */,
 				EF1452AE212139C3002897B4 /* main.m in Sources */,
 				EF1452A0212139C1002897B4 /* AppDelegate.m in Sources */,
-				EF1452D2212139E1002897B4 /* CalculatorTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (WLChainImageViewType)
-
+/** 图片 */
+- (UIImageView *(^)(UIImage *img))              wl_imageView_image;
+/** 图片布局 */
+- (UIImageView *(^)(UIViewContentMode mode))    wl_imageView_contentMode;
 @end

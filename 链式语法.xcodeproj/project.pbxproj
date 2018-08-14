@@ -19,6 +19,8 @@
 		EF1452E6212181F1002897B4 /* UIView+WLChainButtonType.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452E5212181F1002897B4 /* UIView+WLChainButtonType.m */; };
 		EF1452F921228E59002897B4 /* UIView+WLChainImageViewType.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452F821228E59002897B4 /* UIView+WLChainImageViewType.m */; };
 		EF1452FC2122A9A2002897B4 /* NSObject+WLAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452FB2122A9A2002897B4 /* NSObject+WLAssociatedObject.m */; };
+		EF1452FF2122BA20002897B4 /* NSObject+WLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1452FD2122BA20002897B4 /* NSObject+WLCache.m */; };
+		EF1453032122C7F4002897B4 /* UIImageView+WLGetImageUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1453022122C7F4002897B4 /* UIImageView+WLGetImageUrl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,10 @@
 		EF1452F821228E59002897B4 /* UIView+WLChainImageViewType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WLChainImageViewType.m"; sourceTree = "<group>"; };
 		EF1452FA2122A9A2002897B4 /* NSObject+WLAssociatedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+WLAssociatedObject.h"; sourceTree = "<group>"; };
 		EF1452FB2122A9A2002897B4 /* NSObject+WLAssociatedObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WLAssociatedObject.m"; sourceTree = "<group>"; };
+		EF1452FD2122BA20002897B4 /* NSObject+WLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WLCache.m"; sourceTree = "<group>"; };
+		EF1452FE2122BA20002897B4 /* NSObject+WLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WLCache.h"; sourceTree = "<group>"; };
+		EF1453012122C7F4002897B4 /* UIImageView+WLGetImageUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WLGetImageUrl.h"; sourceTree = "<group>"; };
+		EF1453022122C7F4002897B4 /* UIImageView+WLGetImageUrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WLGetImageUrl.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,7 @@
 			children = (
 				EF1452E721218300002897B4 /* WLChainHeader.h */,
 				EF1452DD21217FCA002897B4 /* View */,
+				EF1453002122C795002897B4 /* NSObject */,
 				EF1452F0212285EA002897B4 /* Base */,
 				EF1452F1212285F2002897B4 /* Button */,
 				EF1452F2212285F9002897B4 /* Label */,
@@ -153,8 +160,6 @@
 			children = (
 				EF1452DA21217013002897B4 /* UIView+WLChainViewType.h */,
 				EF1452DB21217013002897B4 /* UIView+WLChainViewType.m */,
-				EF1452FA2122A9A2002897B4 /* NSObject+WLAssociatedObject.h */,
-				EF1452FB2122A9A2002897B4 /* NSObject+WLAssociatedObject.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -182,8 +187,21 @@
 			children = (
 				EF1452F721228E59002897B4 /* UIView+WLChainImageViewType.h */,
 				EF1452F821228E59002897B4 /* UIView+WLChainImageViewType.m */,
+				EF1453012122C7F4002897B4 /* UIImageView+WLGetImageUrl.h */,
+				EF1453022122C7F4002897B4 /* UIImageView+WLGetImageUrl.m */,
 			);
 			path = ImageView;
+			sourceTree = "<group>";
+		};
+		EF1453002122C795002897B4 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				EF1452FA2122A9A2002897B4 /* NSObject+WLAssociatedObject.h */,
+				EF1452FB2122A9A2002897B4 /* NSObject+WLAssociatedObject.m */,
+				EF1452FE2122BA20002897B4 /* NSObject+WLCache.h */,
+				EF1452FD2122BA20002897B4 /* NSObject+WLCache.m */,
+			);
+			path = NSObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,7 +336,9 @@
 			files = (
 				EF1452E6212181F1002897B4 /* UIView+WLChainButtonType.m in Sources */,
 				EF1452DC21217013002897B4 /* UIView+WLChainViewType.m in Sources */,
+				EF1453032122C7F4002897B4 /* UIImageView+WLGetImageUrl.m in Sources */,
 				EF1452FC2122A9A2002897B4 /* NSObject+WLAssociatedObject.m in Sources */,
+				EF1452FF2122BA20002897B4 /* NSObject+WLCache.m in Sources */,
 				EF1452E021218104002897B4 /* UIView+WLChainLabelType.m in Sources */,
 				EF1452D921214992002897B4 /* WLButton.m in Sources */,
 				EF1452F921228E59002897B4 /* UIView+WLChainImageViewType.m in Sources */,

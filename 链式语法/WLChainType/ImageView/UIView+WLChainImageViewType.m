@@ -7,6 +7,7 @@
 //
 
 #import "UIView+WLChainImageViewType.h"
+#import "UIImageView+WLGetImageUrl.h"
 
 @implementation UIView (WLChainImageViewType)
 /** 图片 */
@@ -22,7 +23,16 @@
 - (UIImageView *(^)(UIViewContentMode mode)) wl_imageView_contentMode{
     return ^id (UIViewContentMode mode){
         if ([self isKindOfClass:UIImageView.class]) {
-            [(UIButton *)self setContentMode:mode];
+            [(UIImageView *)self setContentMode:mode];
+        }
+        return self;
+    };
+}
+/** 图片加载 */
+- (UIImageView *(^)(NSString *imageUrl)) wl_imageView_imageUrl{
+    return ^id (NSString *imageUrl){
+        if ([self isKindOfClass:UIImageView.class]) {
+            [(UIImageView *)self wl_getImageUrl:imageUrl];
         }
         return self;
     };

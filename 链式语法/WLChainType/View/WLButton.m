@@ -21,7 +21,7 @@
         CGFloat maxW = self.frame.size.width;
         CGFloat maxH = self.frame.size.height;
         
-        CGFloat maxTitleW = self.titleLabel.frame.size.width;
+//        CGFloat maxTitleW = self.titleLabel.frame.size.width;
         CGFloat maxTitleH = self.titleLabel.frame.size.height;
         
         CGFloat maxImageW = self.imageView.frame.size.width;

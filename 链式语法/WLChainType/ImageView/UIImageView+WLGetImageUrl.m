@@ -16,6 +16,9 @@
     [self wl_getImageUrl:imageUrl defaultImage:[UIImage imageNamed:wl_defaultImage]];
 }
 -(void)wl_getImageUrl:(NSString *)imageUrl defaultImage:(UIImage *)image{
+    if (!image) {
+        image = [UIImage imageNamed:wl_defaultImage];
+    }
     UIImage *img = [NSObject readKey_wl:imageUrl dataType:imageData_wl];
     if (img) {
         self.image = img;
@@ -26,11 +29,13 @@
     NSOperationQueue *queue = [[NSOperationQueue alloc] init];
     [queue addOperationWithBlock: ^{
         NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageUrl]];
-        [NSObject saveData_wl:imgData key:imageUrl dataType:imageData_wl];
-        UIImage *image = [UIImage imageWithData:imgData];
-        [[NSOperationQueue mainQueue] addOperationWithBlock: ^{
-            self.image = image;
-        }];
+        if (imgData) {
+            [NSObject saveData_wl:imgData key:imageUrl dataType:imageData_wl];
+            UIImage *image = [UIImage imageWithData:imgData];
+            [[NSOperationQueue mainQueue] addOperationWithBlock: ^{
+                self.image = image;
+            }];
+        } 
     }];
 }
 

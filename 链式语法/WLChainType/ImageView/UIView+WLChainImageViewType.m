@@ -29,10 +29,10 @@
     };
 }
 /** 图片加载 */
-- (UIImageView *(^)(NSString *imageUrl)) wl_imageView_imageUrl{
-    return ^id (NSString *imageUrl){
+- (UIImageView *(^)(NSString *imageUrl,UIImage *defaultImage)) wl_imageView_imageUrl{
+    return ^id (NSString *imageUrl,UIImage *defaultImage){
         if ([self isKindOfClass:UIImageView.class]) {
-            [(UIImageView *)self wl_getImageUrl:imageUrl];
+            [(UIImageView *)self wl_getImageUrl:imageUrl defaultImage:defaultImage];
         }
         return self;
     };

@@ -14,5 +14,5 @@
 /** 图片布局 */
 - (UIImageView *(^)(UIViewContentMode mode))    wl_imageView_contentMode;
 /** 图片加载 */
-- (UIImageView *(^)(NSString *imageUrl))        wl_imageView_imageUrl;
+- (UIImageView *(^)(NSString *imageUrl ,UIImage *defaultImage))        wl_imageView_imageUrl;
 @end

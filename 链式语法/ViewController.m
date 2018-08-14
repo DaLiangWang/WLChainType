@@ -56,7 +56,7 @@ const void *label_countDown = "fds";
     UIImageView *i = UIImageView.wl_init()
     .wl_size(CGRectMake(120,360,150,150))
     .wl_backgroundColor([UIColor yellowColor])
-    .wl_imageView_imageUrl(@"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534245522084&di=ed1246fbde94bedd9a46056ef0661e13&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F060828381f30e92404cafd0c47086e061d95f7a5.jpg")
+    .wl_imageView_imageUrl(@"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534245522084&di=ed1246fbde94bedd9a46056ef0661e13&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F060828381f30e92404cafd0c47086e061d95f7a5.jpg",nil)
     .wl_end();
     [self.view addSubview:i];
     

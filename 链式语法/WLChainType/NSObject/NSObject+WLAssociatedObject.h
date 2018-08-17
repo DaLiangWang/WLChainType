@@ -11,10 +11,11 @@
 @interface NSObject (WLAssociatedObject)
 
 
-/** 附加一个stong对象 */
-- (id (^)(id sf,const void *key))  wl_addStongObject;
-/** 附加一个weak对象 */
-- (id (^)(id sf,const void *key))  wl_addWeakObject;
+
+/** 将Stong对象附加到另一个对象上 */
+- (id (^)(id sf,const void *key))  wl_addStongToObject;
+/** 将weak对象附加到另一个对象上 */
+- (id (^)(id sf,const void *key))  wl_addWeakToObject;
 
 /** 根据附加对象的key取出附加对象 */
 - (id (^)(const void *key))  wl_getValue;

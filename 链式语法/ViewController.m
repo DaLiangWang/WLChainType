@@ -67,7 +67,6 @@ const void *label_countDown = "fds";
     .wl_label_title(@"4321")
     .wl_addStongToObject(self,label_countDown);
     [self.view addSubview:l];
-    
 
 }
 

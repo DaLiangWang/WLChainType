@@ -84,7 +84,9 @@ static char kActionHandlerLongPressGestureKey;
     };
 }
 /** 结束 */
-- (id)wl_end{
-    return self;
+- (id (^)(void)) wl_end{
+    return ^id (){
+        return self;
+    };
 }
 @end

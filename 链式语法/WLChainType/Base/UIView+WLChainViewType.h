@@ -31,5 +31,5 @@
 - (UIView *(^)(id sf ,SEL sel))         wl_addLongPress;
 
 /** 结束 */
-- (id)wl_end;
+- (id (^)(void))                        wl_end;
 @end

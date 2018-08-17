@@ -12,14 +12,14 @@
 @implementation NSObject (WLAssociatedObject)
 
 /** 附加一个stong对象 */
-- (id (^)(id sf,const void *key)) wl_addStongObject{
+- (id (^)(id sf,const void *key)) wl_addStongToObject{
     return ^id (id sf,const void *key) {
         objc_setAssociatedObject(sf, key, self, OBJC_ASSOCIATION_RETAIN);
         return self;
     };
 }
 /** 附加一个weak对象 */
-- (id (^)(id sf,const void *key)) wl_addWeakObject{
+- (id (^)(id sf,const void *key)) wl_addWeakToObject{
     return ^id (id sf,const void *key){
         objc_setAssociatedObject(sf, key, self, OBJC_ASSOCIATION_ASSIGN);
         return self;
